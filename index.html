@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="flex items-center justify-between p-5">
+    <div>
+      <img src="images/logo.svg" alt="insure logo">
+    </div>
+    
+   <div class="dropdown">
+   <button onclick="myFunction()" class="dropbtn">
+     <i class="fas fa-bars"></i>
+   </button>
+
+   <div id="myDropdown" class="dropdown-content">
+   <nav class="absolute top-16 right-20 bottom-30 left-0 bg-gray-900 " >
+     <ul >
+      <li><a><p class="text-white">How we work</p></a></li>
+      <li><a><p class="text-white">Blog<p></a></li>
+      <li><a><p class="text-white">Account<p></a></li>
+      <li><a><p class="text-white">View plans<p></a></li>
+     </ul>
+   </nav>
+   </div>
+
+    
+</div>
+
+
+  </header>
+
+
+  <!--showcase-->
+  <section class="showcase ">
+    <div>
+      <img src="images/image-intro-mobile.jpg" class="w-full">
+    </div>
+    
+    <div class="showcase-inner py-20 px-5">
+      <h1 class="text-white text-5xl text-center ">Humanizing your insurance</h1>
+      <p class="text-white text-center mt-5 mb-10">Get your life insurance coverage easier and faster. We blend our expertise 
+  and technology to help you find the plan that’s right for you. Ensure you 
+  and your loved ones are protected.</p>
+
+
+     <div class="text-center">
+           <button class="border-2 border-white text-white py-2 px-6 ">VIEW PLANS</button>
+     </div>
+
+    </div>
+
+
+  </section>
+
+  <section class="grid-items pt-44 pb-20">
+    <div class="underline">
+      
+    </div>
+
+    <h1 class="text-5xl text-center">We’re different</h1>
+    
+   <div class="cards flex flex-col items-center justify-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    
+     
+         <div class="card text-center">
+            <img src="images/icon-snappy-process.svg" class="block mx-auto">
+            <h3>Snappy Process</h3>
+            <p>Our application process can be completed in minutes, not hours. Don’t get 
+  stuck filling in tedious forms.</p>
+        
+          </div>
+      
+          <div class="card text-center">
+            <img src="images/icon-affordable-prices.svg" class="block mx-auto" >
+            
+            <h3> Affordable Prices</h3>
+            <p>We don’t want you worrying about high monthly costs. Our prices may be low, 
+  but we still offer the best coverage possible.</p>
+          </div>
+
+     
+          <div class="card text-center">
+              <img src="images/icon-people-first.svg" class="block mx-auto">
+              <h3>People First</h3>
+              <p>Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+  sure you’re covered when you need it.</p>
+         </div>
+
+   </div>
+
+  </section>
+
+  <section class="showcase-inner py-20">
+     
+     <div class="text-center text-white text-2xl">
+       <h3 class="mt-2 mb-10">Find out more about how we work.</h3>
+       <button class="border-2 border-white text-white py-2 px-6  ">How we work</button>
+
+     </div>
+
+  </section>
+
+  <footer class="py-20 text-center bg-gray-200 ">
+
+    <div>
+         <div>
+           <img src="images/logo.svg" class="block mx-auto">
+     
+         </div>
+
+        <ul class="flex items-center justify-center my-5 ">
+           <li class="mx-3"><i class="fab fa-facebook"></i></li>
+           <li class="mx-3"><i class="fab fa-twitter"></i></li>
+           <li class="mx-3"><i class="fab fa-pinterest"></i></li>
+           <li class="mx-3"><i class="fab fa-instagram"></i></li>
+       </ul>
+
+    </div>
+
+   <div>
+       
+      <h3 class="text-2xl">Our company</h3>
+
+          <ul>
+             <li><a href="#">How we work</a></li>
+             <li><a href="#">Why Insure?</a></li>
+             <li><a href="#">View plans</a></li>
+             <li><a href="#">Reviews</a></li>
+          </ul>
+   </div>
+  
+  </div>
+
+     <div>
+       
+        <h3 class="text-2xl"> Help me</h3>
+
+          <ul cl>
+             <li><a href="#">FAQ</a></li>
+             <li><a href="#">Terms of use</a></li>
+             <li><a href="#"> Privacy policy</a></li>
+             <li><a href="#">Cookies</a></li>
+          </ul>
+
+    </div>
+
+
+
+     <div>
+       
+        <h3 class="text-2xl">Contact</h3>
+      
+           <ul>
+                 <li><a href="#"> Sales</a></li>
+                 <li><a href="#"> Support</a></li>
+                 <li><a href="#">Live chat</a></li>
+                 
+           </ul>
+     </div>
+
+
+    <div>
+       
+         <h3 class="text-2xl"> Others</h3>
+      
+             <ul>
+                 <li><a href="#">Careers</a></li>
+                 <li><a href="#"> Press</a></li>
+                 <li><a href="#">Licenses</a></li>
+            </ul>
+
+    </div>
+
+
+</footer>
+
+  
+
+  
+
+ 
+ 
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Irvine Mesa</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
